@@ -14,6 +14,8 @@
 		309F57202B4742CB006B8752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309F571E2B4742CB006B8752 /* LaunchScreen.storyboard */; };
 		309F572A2B474A88006B8752 /* LoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F57292B474A88006B8752 /* LoveView.swift */; };
 		309F572C2B474C21006B8752 /* LoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F572B2B474C21006B8752 /* LoveCell.swift */; };
+		309F57302B476567006B8752 /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F572F2B476567006B8752 /* Love.swift */; };
+		309F57322B476647006B8752 /* LoveFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F57312B476647006B8752 /* LoveFactory.swift */; };
 		A6E95FCF34FF173E8517BB23 /* libPods-loveyou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BE99EED827A3A4F405BF5B /* libPods-loveyou.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		309F57212B4742CB006B8752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309F57292B474A88006B8752 /* LoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveView.swift; sourceTree = "<group>"; };
 		309F572B2B474C21006B8752 /* LoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCell.swift; sourceTree = "<group>"; };
+		309F572F2B476567006B8752 /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
+		309F57312B476647006B8752 /* LoveFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveFactory.swift; sourceTree = "<group>"; };
 		F8BE99EED827A3A4F405BF5B /* libPods-loveyou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loveyou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,8 @@
 				309F57172B4742C5006B8752 /* LoveViewController.swift */,
 				309F572B2B474C21006B8752 /* LoveCell.swift */,
 				309F57292B474A88006B8752 /* LoveView.swift */,
+				309F572F2B476567006B8752 /* Love.swift */,
+				309F57312B476647006B8752 /* LoveFactory.swift */,
 			);
 			path = LoveView;
 			sourceTree = "<group>";
@@ -107,7 +113,6 @@
 				247042AC1242534DB80543C0 /* Pods-loveyou.debug.xcconfig */,
 				20D561D31A9B023C9CFC51ED /* Pods-loveyou.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,9 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				309F57182B4742C5006B8752 /* LoveViewController.swift in Sources */,
+				309F57302B476567006B8752 /* Love.swift in Sources */,
 				309F57142B4742C5006B8752 /* AppDelegate.swift in Sources */,
 				309F572A2B474A88006B8752 /* LoveView.swift in Sources */,
 				309F57162B4742C5006B8752 /* SceneDelegate.swift in Sources */,
+				309F57322B476647006B8752 /* LoveFactory.swift in Sources */,
 				309F572C2B474C21006B8752 /* LoveCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

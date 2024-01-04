@@ -1,3 +1,4 @@
+import Cartography
 import UIKit
 
 public final class LoveCell: UICollectionViewCell {
@@ -8,13 +9,12 @@ public final class LoveCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.layer.cornerRadius = 16
         return imageView
     }()
     
     public lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .white
+        label.textAlignment = .center
         return label
     }()
     
@@ -37,13 +37,25 @@ public final class LoveCell: UICollectionViewCell {
         contentView.addSubview(titleLabel)
     }
     
-    public func configure(image: UIImage, title: String) {
+    public func configure(image: UIImage?, title: String) {
         loveImageView.image = image
         titleLabel.text = title
     }
     
     private func setupConstrains() {
+        constrain(loveImageView, contentView) { image, view in
+            image.top == view.top
+            image.leading == view.leading
+            image.trailing == view.trailing
+            image.height == 150
+        }
         
+        constrain(titleLabel, loveImageView, contentView) { title, image, view in
+            title.top == image.bottom - 35
+            title.leading == view.leading
+            title.trailing == view.trailing
+            title.bottom == view.bottom
+        }
     }
 }
 
