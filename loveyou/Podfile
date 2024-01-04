@@ -2,9 +2,8 @@
 # platform :ios, '9.0'
 
 target 'loveyou' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
 
-  # Pods for loveyou
+	# Pods for loveyou
+	pod 'Cartography', '~> 4.0'
 
 end

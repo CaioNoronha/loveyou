@@ -1,0 +1,6 @@
+module Pods_loveyou {
+  umbrella header "Pods-loveyou-umbrella.h"
+
+  export *
+  module * { export * }
+}
