@@ -1,0 +1,126 @@
+{
+    "location": "Brasília",
+    "cards": ["Perto de Você", "Esse fim de semana", "Congressos", "Bailes", "Zouk Brasileiro", "Forró", "Eventos"],
+    
+    "banners": [
+        {
+            "title": "Zouk Day Congress",
+            "imageUrl": "zoukday_banner"
+        },
+        {
+            "title": "Rio Zouk Congress",
+            "imageUrl": "riozouk_banner"
+        },
+        {
+            "title": "Zouk em Brasília - Workshop",
+            "imageUrl": "zeb_banner"
+        }
+    ],
+    
+    "events": [
+        {
+            "title": "CremoCoffee",
+            "imageUrl": "cremocoffee_party",
+            "location": "Rio de Janeiro - RJ",
+            "Calendar": "16 de Dez",
+            "price": 30.00,
+            "tags": ["Zouk Brasileiro", "Baile"]
+        },
+        {
+            "title": "Rio Zouk Congress",
+            "imageUrl": "riozoukcongress",
+            "location": "Rio de Janeiro - RJ",
+            "Calendar": "11 - 14 Jan",
+            "price": 600.00,
+            "tags": ["Zouk Brasileiro", "Lambada", "Baile"]
+        },
+        {
+            "title": "Embrazouk",
+            "imageUrl": "embrazouk",
+            "location": "Feira de Santana - BA",
+            "Calendar": "3 - 5 de Maio",
+            "price": 500.00,
+            "tags": ["Zouk Brasileiro", "Congresso"]
+        },
+        {
+            "title": "Zouk Coffee",
+            "imageUrl": "zoukcoffee",
+            "location": "Brasília - DF",
+            "Calendar": "Todo Sábado",
+            "price": 100.00,
+            "tags": ["Zouk Brasileiro", "Treino"]
+        },
+        {
+            "title": "Zoukzin",
+            "imageUrl": "zoukzin",
+            "location": "Brasília - DF",
+            "Calendar": "Todo mês",
+            "price": 30.00,
+            "tags": ["Zouk Brasileiro", "Baile"]
+        },
+        {
+            "title": "B-Day Caio Lins",
+            "imageUrl": "zeb_party",
+            "location": "Brasília - DF",
+            "Calendar": "3 de Fev",
+            "price": 50.00,
+            "tags": ["Zouk Brasileiro", "Baile"]
+        },
+        {
+            "title": "Nárnia Zouk",
+            "imageUrl": "narniazouk",
+            "location": "São Paulo - SP",
+            "Calendar": "Todas Segunda",
+            "price": 0.00,
+            "tags": ["Zouk Brasileiro", "Treino"]
+        },
+        {
+            "title": "Zouk Hour",
+            "imageUrl": "zoukhour",
+            "location": "Florianópolis - SC",
+            "Calendar": "8 - 10 de Março",
+            "price": 500.00,
+            "tags": ["Zouk Brasileiro", "Congresso"]
+        },
+        {
+            "title": "Chapa no Zouk",
+            "imageUrl": "chapanozouk",
+            "location": "Chapada dos Veadeiros - GO",
+            "Calendar": "29 de Ago à 1 de Set",
+            "price": 500.00,
+            "tags": ["Zouk Brasileiro", "Congresso"]
+        },
+        {
+            "title": "Zouk in Foco",
+            "imageUrl": "zoukinfoco",
+            "location": "Juíz de Fora - MG",
+            "Calendar": "13 - 15 de Dez",
+            "price": 500.00,
+            "tags": ["Zouk Brasileiro", "Congresso"]
+        },
+        {
+            "title": "Work n' Coffee",
+            "imageUrl": "work_n_coffee",
+            "location": "Brasília - DF",
+            "Calendar": "11 - 13 de Ago",
+            "price": 300.00,
+            "tags": ["Zouk Brasileiro", "Workshop"]
+        },
+        {
+            "title": "Anivesário Zé do Lago",
+            "imageUrl": "baile_zedolago",
+            "location": "São Paulo - SP",
+            "Calendar": "30 de Set",
+            "price": 100.00,
+            "tags": ["Zouk Brasileiro", "Baile"]
+        },
+        {
+            "title": "Lá na Dança",
+            "imageUrl": "lanadanca",
+            "location": "Brasília - DF",
+            "Calendar": "de seg à sáb",
+            "price": 200.00,
+            "tags": ["Zouk Brasileiro", "Academia"]
+        },
+    ]
+}
