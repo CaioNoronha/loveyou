@@ -1,0 +1,43 @@
+{
+    "title": "Zoukzin",
+    "imageUrl": "zoukzin",
+    "about": {
+        "date": "Todo mês, aos sábados",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "location": "Lá na dança, Asa Norte, 403 - DF",
+        "rhythms": ["Zouk Brasileiro"],
+        "type": "Baile"
+    },
+    "showcases": {
+        "djs": [
+            {
+                "title": "Caio Lins",
+                "imageUrl": "zoukcoffee"
+            },
+            {
+                "title": "Auler",
+                "imageUrl": "cremocoffee"
+            }
+        ]
+    },
+    "tickets": [
+        {
+            "title": "Antecipado",
+            "price": 35.00,
+            "endTime": "2024-01-28 23:00",
+            "available": true
+        },
+        {
+            "title": "Na hora",
+            "price": 40.00,
+            "endTime": "2024-02-28 23:00",
+            "available": false
+        }
+    ],
+    "organizer": {
+        "title": "Zouk Coffee",
+        "phoneNumber": "(61) 99970-1161",
+        "instagramId": "@zoukcoffee"
+    }
+}

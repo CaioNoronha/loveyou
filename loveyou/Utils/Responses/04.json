@@ -1,0 +1,22 @@
+{
+    "title": "Zouk Coffee",
+    "imageUrl": "zoukcoffee",
+    "about": {
+        "date": "Todo sábado",
+        "location": "Brito Dança, Asa Sul 709 - DF",
+        "rhythms": ["Zouk Brasileiro"],
+        "type": "Treino"
+    },
+    "tickets": [
+        {
+            "title": "Mensalidade",
+            "price": 100.00,
+            "available": true
+        }
+    ],
+    "organizer": {
+        "title": "Zouk Coffee",
+        "phoneNumber": "(61) 99970-1161",
+        "instagramId": "@zoukcoffee"
+    }
+}
