@@ -26,7 +26,7 @@ public final class LoveFactory {
         let apr = Love(titleDate: "Abril", cellImage: UIImage(), isAvailable: aprIsAvailable, description: "description", photo:  UIImage())
         
         
-        return [jan, feb, mar, apr]
+        return [jan, feb, mar, apr, apr, apr, apr, apr, apr, apr, apr, apr, apr, apr]
     }
     
     

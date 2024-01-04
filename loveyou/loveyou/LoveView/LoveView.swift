@@ -6,15 +6,14 @@ public final class LoveView: UIView {
     public lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 26)
-        label.text = "Oi amor"
+        label.text = "Amor Agendado"
         return label
     }()
     
     public lazy var loveCollection: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
-        layout.minimumInteritemSpacing = 8
-        layout.minimumLineSpacing = 30
+        layout.minimumLineSpacing = 25
         layout.estimatedItemSize = CGSize(width: 100, height: 150)
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
@@ -54,8 +53,8 @@ public final class LoveView: UIView {
         
         constrain(loveCollection, titleLabel, self) { collection, title, view in
             collection.top == title.bottom + 12
-            collection.leading == view.leading
-            collection.trailing == view.trailing
+            collection.leading == view.leading + 12
+            collection.trailing == view.trailing - 12
             collection.bottom == view.bottom
         }
     }

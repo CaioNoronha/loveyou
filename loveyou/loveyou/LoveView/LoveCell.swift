@@ -14,6 +14,7 @@ public final class LoveCell: UICollectionViewCell {
     
     public lazy var titleLabel: UILabel = {
         let label = UILabel()
+        label.textColor = .white
         label.textAlignment = .center
         return label
     }()
