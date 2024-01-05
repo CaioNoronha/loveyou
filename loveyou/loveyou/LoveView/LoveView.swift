@@ -27,7 +27,7 @@ public final class LoveView: UIView {
     
     public lazy var backgroundView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "vermelho")
+        imageView.image = UIImage(named: "background")
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()

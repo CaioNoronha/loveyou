@@ -33,13 +33,13 @@ public final class LoveFactory {
         let mayDate = convertToDate("2024-05-05")
         let mayIsAvailable = dateComparator(date: mayDate)
         
-        let may = Love(titleDate: "Maio", cellImage: UIImage(named: "box_2")!, isAvailable: mayIsAvailable, photo:  UIImage(named: "page_5")!, background: UIImage(named: "background_5")!)
+        let may = Love(titleDate: "Maio", cellImage: UIImage(named: "box_5")!, isAvailable: mayIsAvailable, photo:  UIImage(named: "page_5")!, background: UIImage(named: "background_5")!)
         
         //Jun
         let junDate = convertToDate("2024-06-05")
         let junIsAvailable = dateComparator(date: junDate)
         
-        let jun = Love(titleDate: "Junho", cellImage: UIImage(), isAvailable: junIsAvailable, photo:  UIImage(named: "page_3")!, background: UIImage(named: "background_3")!)
+        let jun = Love(titleDate: "Junho", cellImage: UIImage(named: "box_6")!, isAvailable: junIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Jul
         let julDate = convertToDate("2024-07-05")
