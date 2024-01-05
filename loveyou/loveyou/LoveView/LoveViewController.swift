@@ -17,6 +17,7 @@ public final class LoveViewController: UIViewController {
     
     private func setupNavigation() {
         self.navigationItem.backButtonTitle = "Amor Agendado"
+        self.navigationController?.navigationBar.tintColor = .red
     }
 }
 
@@ -26,7 +27,7 @@ extension LoveViewController: UICollectionViewDelegate, UICollectionViewDataSour
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let love = viewModel?.calendarLove[indexPath.row], love.isAvailable  {
             
-            let heartView = HeartViewController(heartImage: love.photo, heartBackground: UIImage(named: "background_1") ?? UIImage())
+            let heartView = HeartViewController(heartImage: love.photo, heartBackground: love.background)
             
             navigationController?.pushViewController(heartView, animated: true)
         }

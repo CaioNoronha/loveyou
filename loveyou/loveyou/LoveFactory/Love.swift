@@ -9,4 +9,5 @@ public struct Love {
     
     //Card
     let photo: UIImage
+    let background: UIImage
 }
