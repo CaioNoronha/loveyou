@@ -2,12 +2,13 @@ import Cartography
 import UIKit
 
 public final class LoveView: UIView {
-        
-    public lazy var titleLabel: UILabel = {
-        let label = UILabel()
-        label.font = .systemFont(ofSize: 26)
-        label.text = "Amor Agendado"
-        return label
+            
+    public lazy var titleView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: "title")
+        imageView.contentMode = .scaleAspectFit
+        imageView.clipsToBounds = true
+        return imageView
     }()
     
     public lazy var loveCollection: UICollectionView = {
@@ -26,7 +27,7 @@ public final class LoveView: UIView {
     
     public lazy var backgroundView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "background")
+        imageView.image = UIImage(named: "vermelho")
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
@@ -48,24 +49,25 @@ public final class LoveView: UIView {
     }
     
     private func build() {
-        addSubview(titleLabel)
+        addSubview(titleView)
         addSubview(loveCollection)
         insertSubview(backgroundView, at: 0)
     }
 
     private func setupConstrains() {
-        constrain(titleLabel, self) { label, view in
-            label.top == view.safeAreaLayoutGuide.top
-            label.leading == view.leading + 32
-            label.trailing == view.trailing - 32
+        constrain(titleView, self) { titleView, view in
+            titleView.top == view.safeAreaLayoutGuide.top
+            titleView.leading == view.leading + 32
+            titleView.trailing == view.trailing - 32
+            titleView.height == 150
         }
         
         constrain(backgroundView, self) { image, view in
             image.edges == view.edges
         }
         
-        constrain(loveCollection, titleLabel, self) { collection, title, view in
-            collection.top == title.bottom + 12
+        constrain(loveCollection, titleView, self) { collection, title, view in
+            collection.top == title.bottom
             collection.leading == view.leading + 12
             collection.trailing == view.trailing - 12
             collection.bottom == view.bottom
