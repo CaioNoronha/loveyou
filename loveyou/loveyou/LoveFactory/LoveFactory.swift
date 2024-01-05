@@ -21,25 +21,25 @@ public final class LoveFactory {
         let marDate = convertToDate("2024-03-05")
         let marIsAvailable = dateComparator(date: marDate)
         
-        let mar = Love(titleDate: "Março", cellImage: UIImage(named: "box_2")!, isAvailable: marIsAvailable, photo:  UIImage(named: "page_2")!, background: UIImage(named: "background_1")!)
+        let mar = Love(titleDate: "Março", cellImage: UIImage(named: "box_3")!, isAvailable: marIsAvailable, photo:  UIImage(named: "page_3")!, background: UIImage(named: "background_3")!)
         
         //Apr
         let aprDate = convertToDate("2024-04-05")
         let aprIsAvailable = dateComparator(date: aprDate)
         
-        let apr = Love(titleDate: "Abril", cellImage: UIImage(), isAvailable: aprIsAvailable, photo:  UIImage(), background: UIImage(named: "background_1")!)
+        let apr = Love(titleDate: "Abril", cellImage: UIImage(named: "box_4")!, isAvailable: aprIsAvailable, photo:  UIImage(named: "page_4")!, background: UIImage(named: "background_4")!)
         
         //May
         let mayDate = convertToDate("2024-05-05")
         let mayIsAvailable = dateComparator(date: mayDate)
         
-        let may = Love(titleDate: "Maio", cellImage: UIImage(), isAvailable: mayIsAvailable, photo:  UIImage(), background: UIImage(named: "background_1")!)
+        let may = Love(titleDate: "Maio", cellImage: UIImage(named: "box_2")!, isAvailable: mayIsAvailable, photo:  UIImage(named: "page_5")!, background: UIImage(named: "background_5")!)
         
         //Jun
         let junDate = convertToDate("2024-06-05")
         let junIsAvailable = dateComparator(date: junDate)
         
-        let jun = Love(titleDate: "Junho", cellImage: UIImage(), isAvailable: junIsAvailable, photo:  UIImage(), background: UIImage(named: "background_1")!)
+        let jun = Love(titleDate: "Junho", cellImage: UIImage(), isAvailable: junIsAvailable, photo:  UIImage(named: "page_3")!, background: UIImage(named: "background_3")!)
         
         //Jul
         let julDate = convertToDate("2024-07-05")

@@ -390,6 +390,7 @@
 				DEVELOPMENT_TEAM = AH8399ZQQN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = loveyou/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caio & Fabi";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -418,6 +419,7 @@
 				DEVELOPMENT_TEAM = AH8399ZQQN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = loveyou/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caio & Fabi";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

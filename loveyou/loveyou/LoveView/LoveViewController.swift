@@ -16,7 +16,7 @@ public final class LoveViewController: UIViewController {
     }
     
     private func setupNavigation() {
-        self.navigationItem.backButtonTitle = "Amor Agendado"
+        self.navigationItem.backButtonTitle = "Meu coração"
         self.navigationController?.navigationBar.tintColor = .red
     }
 }
