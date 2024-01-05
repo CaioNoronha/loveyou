@@ -51,7 +51,7 @@ public final class LoveFactory {
         let agoDate = convertToDate("2024-08-05")
         let agoIsAvailable = dateComparator(date: agoDate)
         
-        let ago = Love(titleDate: "Julho", cellImage: UIImage(named: "box_8")!, isAvailable: agoIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let ago = Love(titleDate: "Agosto", cellImage: UIImage(named: "box_8")!, isAvailable: agoIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Set
         let setDate = convertToDate("2024-09-05")
