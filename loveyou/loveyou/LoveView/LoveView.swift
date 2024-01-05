@@ -15,7 +15,7 @@ public final class LoveView: UIView {
         layout.scrollDirection = .vertical
         layout.minimumLineSpacing = 25
         layout.minimumInteritemSpacing = 25
-        layout.estimatedItemSize = CGSize(width: 100, height: 170)
+        layout.itemSize = CGSize(width: 100, height: 170)
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.register(LoveCell.self, forCellWithReuseIdentifier: "LoveCell")
