@@ -45,37 +45,37 @@ public final class LoveFactory {
         let julDate = convertToDate("2024-07-05")
         let julIsAvailable = dateComparator(date: julDate)
         
-        let jul = Love(titleDate: "Julho", cellImage: UIImage(), isAvailable: julIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let jul = Love(titleDate: "Julho", cellImage: UIImage(named: "box_7")!, isAvailable: julIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Ago
         let agoDate = convertToDate("2024-08-05")
         let agoIsAvailable = dateComparator(date: agoDate)
         
-        let ago = Love(titleDate: "Julho", cellImage: UIImage(), isAvailable: agoIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let ago = Love(titleDate: "Julho", cellImage: UIImage(named: "box_8")!, isAvailable: agoIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Set
         let setDate = convertToDate("2024-09-05")
         let setIsAvailable = dateComparator(date: setDate)
         
-        let set = Love(titleDate: "Setembro", cellImage: UIImage(), isAvailable: setIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let set = Love(titleDate: "Setembro", cellImage: UIImage(named: "box_9")!, isAvailable: setIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Out
         let outDate = convertToDate("2024-10-05")
         let utIsAvailable = dateComparator(date: outDate)
         
-        let out = Love(titleDate: "Outubro", cellImage: UIImage(), isAvailable: utIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let out = Love(titleDate: "Outubro", cellImage: UIImage(named: "box_10")!, isAvailable: utIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Nov
         let novDate = convertToDate("2024-11-05")
         let novIsAvailable = dateComparator(date: novDate)
         
-        let nov = Love(titleDate: "Novembro", cellImage: UIImage(), isAvailable: novIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let nov = Love(titleDate: "Novembro", cellImage: UIImage(named: "box_11")!, isAvailable: novIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         //Dez
         let dezDate = convertToDate("2024-12-05")
         let dezIsAvailable = dateComparator(date: dezDate)
         
-        let dez = Love(titleDate: "Dezembro", cellImage: UIImage(), isAvailable: dezIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let dez = Love(titleDate: "Dezembro", cellImage: UIImage(named: "box_12")!, isAvailable: dezIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
         
         return [jan, feb, mar, apr, may, jun, jul, ago, set, out, nov, dez]
     }
