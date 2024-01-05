@@ -69,6 +69,7 @@
 		309F57122B4742C5006B8752 /* loveyou */ = {
 			isa = PBXGroup;
 			children = (
+				309F57332B483661006B8752 /* LoveFactory */,
 				309F572D2B474C2D006B8752 /* LoveView */,
 				309F572E2B474C4B006B8752 /* SupportFiles */,
 				309F571C2B4742CB006B8752 /* Assets.xcassets */,
@@ -84,8 +85,6 @@
 				309F57172B4742C5006B8752 /* LoveViewController.swift */,
 				309F572B2B474C21006B8752 /* LoveCell.swift */,
 				309F57292B474A88006B8752 /* LoveView.swift */,
-				309F572F2B476567006B8752 /* Love.swift */,
-				309F57312B476647006B8752 /* LoveFactory.swift */,
 			);
 			path = LoveView;
 			sourceTree = "<group>";
@@ -97,6 +96,15 @@
 				309F57152B4742C5006B8752 /* SceneDelegate.swift */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		309F57332B483661006B8752 /* LoveFactory */ = {
+			isa = PBXGroup;
+			children = (
+				309F572F2B476567006B8752 /* Love.swift */,
+				309F57312B476647006B8752 /* LoveFactory.swift */,
+			);
+			path = LoveFactory;
 			sourceTree = "<group>";
 		};
 		3A0ED2980CC54722AAAC0355 /* Frameworks */ = {
