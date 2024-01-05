@@ -16,6 +16,8 @@
 		309F572C2B474C21006B8752 /* LoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F572B2B474C21006B8752 /* LoveCell.swift */; };
 		309F57302B476567006B8752 /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F572F2B476567006B8752 /* Love.swift */; };
 		309F57322B476647006B8752 /* LoveFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F57312B476647006B8752 /* LoveFactory.swift */; };
+		309F57362B486501006B8752 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F57352B486501006B8752 /* HeartView.swift */; };
+		309F57382B4866BE006B8752 /* HeartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F57372B4866BE006B8752 /* HeartViewController.swift */; };
 		A6E95FCF34FF173E8517BB23 /* libPods-loveyou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BE99EED827A3A4F405BF5B /* libPods-loveyou.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		309F572B2B474C21006B8752 /* LoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCell.swift; sourceTree = "<group>"; };
 		309F572F2B476567006B8752 /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
 		309F57312B476647006B8752 /* LoveFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveFactory.swift; sourceTree = "<group>"; };
+		309F57352B486501006B8752 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		309F57372B4866BE006B8752 /* HeartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartViewController.swift; sourceTree = "<group>"; };
 		F8BE99EED827A3A4F405BF5B /* libPods-loveyou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loveyou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				309F57332B483661006B8752 /* LoveFactory */,
+				309F57342B4864EA006B8752 /* HeartView */,
 				309F572D2B474C2D006B8752 /* LoveView */,
 				309F572E2B474C4B006B8752 /* SupportFiles */,
 				309F571C2B4742CB006B8752 /* Assets.xcassets */,
@@ -105,6 +110,15 @@
 				309F57312B476647006B8752 /* LoveFactory.swift */,
 			);
 			path = LoveFactory;
+			sourceTree = "<group>";
+		};
+		309F57342B4864EA006B8752 /* HeartView */ = {
+			isa = PBXGroup;
+			children = (
+				309F57352B486501006B8752 /* HeartView.swift */,
+				309F57372B4866BE006B8752 /* HeartViewController.swift */,
+			);
+			path = HeartView;
 			sourceTree = "<group>";
 		};
 		3A0ED2980CC54722AAAC0355 /* Frameworks */ = {
@@ -220,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309F57382B4866BE006B8752 /* HeartViewController.swift in Sources */,
 				309F57182B4742C5006B8752 /* LoveViewController.swift in Sources */,
+				309F57362B486501006B8752 /* HeartView.swift in Sources */,
 				309F57302B476567006B8752 /* Love.swift in Sources */,
 				309F57142B4742C5006B8752 /* AppDelegate.swift in Sources */,
 				309F572A2B474A88006B8752 /* LoveView.swift in Sources */,

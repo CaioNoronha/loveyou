@@ -16,13 +16,23 @@ public final class LoveViewController: UIViewController {
     }
     
     private func setupNavigation() {
-        let backgroundImage = UIImageView(image: UIImage(named: "background"))
-        backgroundImage.contentMode = .scaleAspectFill
-        view.insertSubview(backgroundImage, at: 0)
+        self.navigationItem.backButtonTitle = "Amor Agendado"
     }
 }
 
 extension LoveViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let love = viewModel?.calendarLove[indexPath.row], love.isAvailable  {
+            
+            let heartView = HeartViewController(heartImage: love.photo, heartBackground: UIImage(named: "background_1") ?? UIImage())
+            
+            navigationController?.pushViewController(heartView, animated: true)
+        }
+    }
+    
+    
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         viewModel?.calendarLove.count ?? 0
     }
@@ -34,8 +44,16 @@ extension LoveViewController: UICollectionViewDelegate, UICollectionViewDataSour
         }
         
         if let love = viewModel?.calendarLove[indexPath.row] {
-            cell.configure(image: UIImage(named: "lock"), title: love.titleDate)
-            print(love.isAvailable)
+            
+            var loveImage: UIImage
+            
+            if love.isAvailable {
+                loveImage = love.cellImage
+            } else {
+                loveImage = UIImage(named: "box_locked") ?? UIImage()
+            }
+            
+            cell.configure(image: loveImage, title: love.titleDate)
             
             return cell
         }

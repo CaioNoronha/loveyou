@@ -8,6 +8,5 @@ public struct Love {
     let isAvailable: Bool
     
     //Card
-    let description: String
     let photo: UIImage
 }

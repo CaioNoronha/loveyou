@@ -14,13 +14,21 @@ public final class LoveView: UIView {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.minimumLineSpacing = 25
-        layout.estimatedItemSize = CGSize(width: 100, height: 150)
+        layout.minimumInteritemSpacing = 25
+        layout.estimatedItemSize = CGSize(width: 100, height: 170)
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.register(LoveCell.self, forCellWithReuseIdentifier: "LoveCell")
         collectionView.showsVerticalScrollIndicator = false
         collectionView.backgroundColor = .clear
         return collectionView
+    }()
+    
+    public lazy var backgroundView = {
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: "background")
+        imageView.contentMode = .scaleAspectFill
+        return imageView
     }()
     
     //MARK:- Initializer
@@ -42,13 +50,18 @@ public final class LoveView: UIView {
     private func build() {
         addSubview(titleLabel)
         addSubview(loveCollection)
+        insertSubview(backgroundView, at: 0)
     }
-    
+
     private func setupConstrains() {
         constrain(titleLabel, self) { label, view in
             label.top == view.safeAreaLayoutGuide.top
             label.leading == view.leading + 32
             label.trailing == view.trailing - 32
+        }
+        
+        constrain(backgroundView, self) { image, view in
+            image.edges == view.edges
         }
         
         constrain(loveCollection, titleLabel, self) { collection, title, view in

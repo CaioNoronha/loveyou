@@ -48,7 +48,7 @@ public final class LoveCell: UICollectionViewCell {
             image.top == view.top
             image.leading == view.leading
             image.trailing == view.trailing
-            image.height == 150
+            image.height == 175
         }
         
         constrain(titleLabel, loveImageView, contentView) { title, image, view in
