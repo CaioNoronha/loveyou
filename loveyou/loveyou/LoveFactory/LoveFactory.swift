@@ -45,25 +45,25 @@ public final class LoveFactory {
         let julDate = convertToDate("2024-07-05")
         let julIsAvailable = dateComparator(date: julDate)
         
-        let jul = Love(titleDate: "Julho", cellImage: UIImage(named: "box_7")!, isAvailable: julIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let jul = Love(titleDate: "Julho", cellImage: UIImage(named: "box_7")!, isAvailable: julIsAvailable, photo:  UIImage(named: "page_7")!, background: UIImage(named: "background_7")!)
         
         //Ago
         let agoDate = convertToDate("2024-08-05")
         let agoIsAvailable = dateComparator(date: agoDate)
         
-        let ago = Love(titleDate: "Agosto", cellImage: UIImage(named: "box_8")!, isAvailable: agoIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let ago = Love(titleDate: "Agosto", cellImage: UIImage(named: "box_8")!, isAvailable: agoIsAvailable, photo:  UIImage(named: "page_8")!, background: UIImage(named: "background_8")!)
         
         //Set
         let setDate = convertToDate("2024-09-05")
         let setIsAvailable = dateComparator(date: setDate)
         
-        let set = Love(titleDate: "Setembro", cellImage: UIImage(named: "box_9")!, isAvailable: setIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let set = Love(titleDate: "Setembro", cellImage: UIImage(named: "box_9")!, isAvailable: setIsAvailable, photo:  UIImage(named: "page_9")!, background: UIImage(named: "background_9")!)
         
         //Out
         let outDate = convertToDate("2024-10-05")
-        let utIsAvailable = dateComparator(date: outDate)
+        let outIsAvailable = dateComparator(date: outDate)
         
-        let out = Love(titleDate: "Outubro", cellImage: UIImage(named: "box_10")!, isAvailable: utIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let out = Love(titleDate: "Outubro", cellImage: UIImage(named: "box_10")!, isAvailable: outIsAvailable, photo:  UIImage(named: "page_10")!, background: UIImage(named: "background_10")!)
         
         //Nov
         let novDate = convertToDate("2024-11-05")
