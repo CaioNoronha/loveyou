@@ -69,13 +69,13 @@ public final class LoveFactory {
         let novDate = convertToDate("2024-11-05")
         let novIsAvailable = dateComparator(date: novDate)
         
-        let nov = Love(titleDate: "Novembro", cellImage: UIImage(named: "box_11")!, isAvailable: novIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let nov = Love(titleDate: "Novembro", cellImage: UIImage(named: "box_11")!, isAvailable: novIsAvailable, photo:  UIImage(named: "page_11")!, background: UIImage(named: "background_11")!)
         
         //Dez
         let dezDate = convertToDate("2024-12-05")
         let dezIsAvailable = dateComparator(date: dezDate)
         
-        let dez = Love(titleDate: "Dezembro", cellImage: UIImage(named: "box_12")!, isAvailable: dezIsAvailable, photo:  UIImage(named: "page_6")!, background: UIImage(named: "background_6")!)
+        let dez = Love(titleDate: "Dezembro", cellImage: UIImage(named: "box_12")!, isAvailable: dezIsAvailable, photo:  UIImage(named: "page_11")!, background: UIImage(named: "background_11")!)
         
         return [jan, feb, mar, apr, may, jun, jul, ago, set, out, nov, dez]
     }

@@ -25,7 +25,7 @@ extension LoveViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let love = viewModel?.calendarLove[indexPath.row], love.isAvailable  {
+        if let love = viewModel?.calendarLove[indexPath.row], love.isAvailable {
             
             let heartView = HeartViewController(heartImage: love.photo, heartBackground: love.background)
             
